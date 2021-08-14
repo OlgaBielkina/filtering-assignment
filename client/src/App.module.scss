@@ -1,0 +1,50 @@
+.skeleton {
+    display: block;
+    margin: 3px 0;
+}
+
+.root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    width: 100%;
+}
+
+.main {
+    flex: 1;
+    padding: 16px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.filters:not(:empty) {
+    margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .content {
+        max-width: 1264px;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+
+    .main {
+        padding: 32px;
+    }
+}

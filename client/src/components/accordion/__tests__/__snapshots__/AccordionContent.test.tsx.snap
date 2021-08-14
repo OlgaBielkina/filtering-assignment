@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionContent should render collapsed content 1`] = `
+<DocumentFragment>
+  <div
+    class="hidden"
+    data-testid="accordionContent"
+  >
+    test text
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AccordionContent should render expanded content 1`] = `
+<DocumentFragment>
+  <div
+    class=""
+    data-testid="accordionContent"
+  >
+    test text
+  </div>
+</DocumentFragment>
+`;

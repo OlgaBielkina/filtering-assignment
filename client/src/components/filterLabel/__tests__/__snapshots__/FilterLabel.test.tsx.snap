@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterLabel should render correctly 1`] = `
+<DocumentFragment>
+  <span
+    class="root"
+  >
+    <span
+      class="material-icons closeIcon"
+    >
+      close
+    </span>
+    <span
+      class="label"
+    >
+      test name
+    </span>
+  </span>
+</DocumentFragment>
+`;

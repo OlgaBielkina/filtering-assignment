@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidePanel should render mobile side panel 1`] = `
+<DocumentFragment>
+  <div>
+    <button
+      class="toggleButton"
+    >
+      toggle panel
+    </button>
+    <aside
+      class="panel"
+      data-testid="side-panel"
+    >
+      <span
+        class="material-icons closeButton"
+      >
+        close
+      </span>
+      <span />
+    </aside>
+  </div>
+</DocumentFragment>
+`;

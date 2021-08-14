@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionToogle should not render collapsible toggle 1`] = `
+<DocumentFragment>
+  <div
+    class="root"
+  >
+    test text
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AccordionToogle should render collapsed toggle 1`] = `
+<DocumentFragment>
+  <div
+    class="root"
+  >
+    test text
+    <span
+      class="material-icons icon"
+    >
+      expand_more
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`AccordionToogle should render expanded toggle 1`] = `
+<DocumentFragment>
+  <div
+    class="root"
+  >
+    test text
+    <span
+      class="material-icons icon"
+    >
+      expand_less
+    </span>
+  </div>
+</DocumentFragment>
+`;

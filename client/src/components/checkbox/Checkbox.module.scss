@@ -1,0 +1,15 @@
+.root {
+    display: inline-block;
+
+    &:hover {
+        cursor: pointer;
+
+        input {
+            cursor: pointer;
+        }
+    }
+}
+
+.input {
+    margin-right: 4px;
+}

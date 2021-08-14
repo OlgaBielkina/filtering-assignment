@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Node should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="root"
+  >
+    <label
+      class="root row"
+    >
+      <input
+        class="input"
+        type="checkbox"
+      />
+      <span
+        class="label"
+      >
+        test name 1
+      </span>
+    </label>
+    <span
+      class="material-icons icon"
+    >
+      expand_more
+    </span>
+  </div>
+  <div
+    class="hidden"
+    data-testid="accordionContent"
+  >
+    <div
+      class="offset"
+    >
+      <div
+        class="root"
+      >
+        <label
+          class="root row"
+        >
+          <input
+            class="input"
+            type="checkbox"
+          />
+          <span
+            class="label"
+          >
+            test name 2
+          </span>
+        </label>
+      </div>
+      <div
+        class="hidden"
+        data-testid="accordionContent"
+      >
+        <div
+          class="offset"
+        />
+      </div>
+      <div
+        class="root"
+      >
+        <label
+          class="root row"
+        >
+          <input
+            class="input"
+            type="checkbox"
+          />
+          <span
+            class="label"
+          >
+            test name 3
+          </span>
+        </label>
+        <span
+          class="material-icons icon"
+        >
+          expand_more
+        </span>
+      </div>
+      <div
+        class="hidden"
+        data-testid="accordionContent"
+      >
+        <div
+          class="offset"
+        >
+          <div
+            class="root"
+          >
+            <label
+              class="root row"
+            >
+              <input
+                class="input"
+                type="checkbox"
+              />
+              <span
+                class="label"
+              >
+                test name 4
+              </span>
+            </label>
+          </div>
+          <div
+            class="hidden"
+            data-testid="accordionContent"
+          >
+            <div
+              class="offset"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

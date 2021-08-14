@@ -1,0 +1,5 @@
+{
+    "typescript.tsdk": "client/node_modules/typescript/lib",
+    "git.ignoreLimitWarning": true,
+    "eslint.workingDirectories": ["client", "server"]
+}

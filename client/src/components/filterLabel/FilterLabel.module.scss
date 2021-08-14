@@ -1,0 +1,29 @@
+.root {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 4px 6px;
+    margin: 5px;
+
+    &:hover {
+        background-color: rgb(0 0 0 / 20%);
+        cursor: pointer;
+
+        .closeIcon {
+            cursor: pointer;
+            font-weight: bold;
+            color: inherit;
+        }
+    }
+}
+
+.label {
+    margin-left: 3px 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.closeIcon {
+    color: grey;
+}
