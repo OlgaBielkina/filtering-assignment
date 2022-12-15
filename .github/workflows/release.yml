@@ -17,7 +17,7 @@ jobs:
       - name: 🔧 Setup git
         run: git config user.name "Olga" && git config user.email "belkinaolga88@gmail.com"
       - name: 🔖 New version
-        run: npm version ${{ steps.get_version.outputs.VERSION }}
+        run: npm version ${{ steps.get_version.outputs.VERSION }} --no-git-tag-version
       - name: ✏️ Generate release changelog
         id: Changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.3
