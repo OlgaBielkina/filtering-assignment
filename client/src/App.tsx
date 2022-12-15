@@ -46,7 +46,7 @@ function App(): JSX.Element | null {
                     <div className={styles.filters}>
                         <Filters selectedNodes={tree} onSelect={toggleNodeSelection} />
                         {hasSelectedNodes && (
-                            <FilterLabel label="Reset all :0" nodeId={ROOT_CATEGORY_ID} onSelect={toggleNodeSelection} />
+                            <FilterLabel label="Reset all" nodeId={ROOT_CATEGORY_ID} onSelect={toggleNodeSelection} />
                         )}
                     </div>
                     <div className={styles.products}>Product loaded here ...</div>
