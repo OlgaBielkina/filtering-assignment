@@ -8,11 +8,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Changelog
-        uses: Bullrich/generate-release-changelog@master
+      - name: ✏️ Generate release changelog
         id: Changelog
-        env:
-          REPO: ${{ github.repository }}
+        uses: heinrichreimer/github-changelog-generator-action@v2.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
