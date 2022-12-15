@@ -20,6 +20,8 @@ jobs:
         run: npm version ${{ steps.get_version.outputs.VERSION }} --no-git-tag-version
       - name: ⬆️ Push changes
         run: |
+          git add *
+          git commit -m "bump package.json version"
           git push origin HEAD:master --no-verify --force
       - name: ✏️ Generate release changelog
         id: Changelog
