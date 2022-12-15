@@ -20,7 +20,7 @@ jobs:
         run: npm version ${{ steps.get_version.outputs.VERSION }} --no-git-tag-version
       - name: ⬆️ Push changes
         run: |
-          git push --no-verify --force
+          git push origin HEAD:master --no-verify --force
       - name: ✏️ Generate release changelog
         id: Changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.3
