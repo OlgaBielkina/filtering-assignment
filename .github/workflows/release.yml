@@ -15,7 +15,7 @@ jobs:
         id: get_version
         run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
       - name: 🔖 New version
-        run: yarn version ${{ steps.get_version.outputs.VERSION }}
+        run: npm version ${{ steps.get_version.outputs.VERSION }}
       - name: ✏️ Generate release changelog
         id: Changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.3
