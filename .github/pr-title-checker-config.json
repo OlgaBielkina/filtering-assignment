@@ -8,6 +8,6 @@
   },
   "MESSAGES": {
     "success": "PR title is OK",
-    "failure": "PR title should be prefixed with feat: or fix:",
+    "failure": "PR title should be prefixed with feat: or fix:"
   }
 }
