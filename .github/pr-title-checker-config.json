@@ -4,7 +4,9 @@
     "color": "EEEEEE"
   },
   "CHECKS": {
-    "prefixes": ["fix:", "feat:"]
+    "prefixes": ["fix:", "feat:"],
+    "regexp": "(feat|fix)(\\(\\w+\\))?:",
+    "regexpFlags": "i"
   },
   "MESSAGES": {
     "success": "PR title is OK",
