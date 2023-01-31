@@ -14,5 +14,5 @@ jobs:
     steps:
       - uses: thehanimo/pr-title-checker@v1.3.5
         with:
-          GITHUB_TOKEN: ${{ secrets.READ_PACKAGE_TOKEN }}
+          GITHUB_TOKEN: "chsdbvsdjvsvk",
           configuration_path: ".github/pr-title-checker-config.json"
