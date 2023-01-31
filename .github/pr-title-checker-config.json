@@ -1,15 +1,14 @@
 {
   "LABEL": {
-    "name": "title needs formatting",
+    "name": "PR title needs formatting",
     "color": "EEEEEE"
   },
   "CHECKS": {
-    "prefixes": ["fix:", "feat:"],
-    "regexp": "(feat|fix)(\\(\\w+\\))?:",
+    "regexp": "(feat|fix|Lokalise|chore|chore|docs|refactor|perf|test)(\\(\\w+\\))?:",
     "regexpFlags": "i"
   },
   "MESSAGES": {
     "success": "PR title is OK",
-    "failure": "PR title should be prefixed with feat: or fix:"
+    "failure": "PR title should be prefixed with one of: feat:, fix:, :Lokalise, chore:, docs:, refactor:, perf:, test:. Only fix: and feat: prefixed PR titles will be visible in release notes"
   }
 }
